@@ -60,13 +60,8 @@ Asegúrate de tener instalado lo siguiente:
     dotnet restore
     ```
 
-3. Aplica las migraciones para crear la base de datos:
+3. Corre el Script Sql en la carpeta Root del proyecto `biblioteca_backend.sql`.
 
-    ```bash
-    dotnet ef database update
-    ```
-
-    **Opcional:** Si prefieres ejecutar un script SQL manualmente, puedes encontrar el script en `./DatabaseScripts/CreateDatabase.sql`.
 
 4. Inicia la aplicación con el siguiente comando:
 
@@ -74,12 +69,7 @@ Asegúrate de tener instalado lo siguiente:
     dotnet run
     ```
 
-    La API estará disponible en `https://localhost:5001` o https://localhost:7183 .
+    La API estará disponible en `https://localhost:5001` o `https://localhost:7183` .
     Swagger estará disponible en `https://localhost:5001/swagger` o `https://localhost:7183/swagger` .
 
 
-## Preguntas o Problemas
-
-Si tienes alguna pregunta o encuentras algún problema, no dudes en abrir un problema en el [repositorio](https://github.com/tu-usuario/tu-repositorio).
-
-¡Disfruta explorando la API de BibliotecaBack!
