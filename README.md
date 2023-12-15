@@ -66,6 +66,7 @@ Asegúrate de tener instalado lo siguiente:
 4. Inicia la aplicación con el siguiente comando:
 
     ```bash
+    cd BackenMokTest
     dotnet run
     ```
 
